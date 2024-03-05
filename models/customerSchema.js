@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 
+//customer schema
 const customerSchema = new mongoose.Schema({
     name: {
         type: String,
